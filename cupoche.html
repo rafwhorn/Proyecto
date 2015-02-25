@@ -1,8 +1,8 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html>
 	<head>
-		<link rel="icon" type="image/png" href="images/gun.png" />
+		<link rel="icon" type="image/png" href="../images/gun.png" />
 		<meta charset="utf-8">
 		<!-- Website Title & Description for Search Engine purposes -->
 		<title>Toychan | Figuras anime y Comic</title>
@@ -15,15 +15,13 @@
 		
 		<!-- Custom CSS -->
 		<link href="css/styles.css" rel="stylesheet">
-        
-
 		
 		<!-- Include Modernizr in the head, before any other Javascript -->
 		<script src="js/modernizr-2.6.2.min.js"></script>
 		
 	</head>
 	<body>
-	<div id="wrap">
+	
 	 <div class="container" id="main">
 	 	<div class="navbar navbar-fixed-top"><!-- INICIA Nav bar menu Fijo superior-->
 	 		<div class="container">
@@ -38,13 +36,13 @@
 
 				</button>
 
-	 			<a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="Toychan"></a>
+	 			<a class="navbar-brand" href="index.html"><img src="images/logo.png"></a>
 	 			<div class="nav-collapse collapse navbar-responsive-collapse">
 	 				<ul class="nav navbar-nav">
-	 					<li class="active">
+	 					<li>
 	 						<a href="index.html">Inicio</a>
 	 					</li>
-	 					<li class="dropdown">
+	 					<li class="dropdown" class="active">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Productos <strong class="caret"></strong></a>
 							<ul class="dropdown-menu">
 								<li>
@@ -62,7 +60,7 @@
 
 								<li class="divider"></li>
 								<li class="dropdown-header">
-									Mas Lineas
+									Más Lineas
 								</li>
 								<li>
 									<a href="cupoche.html">Cupoche</a>
@@ -82,94 +80,54 @@
 	 						<a href="contactenos.html">Contactenos</a>
 	 					</li><!-- Contactenos-->
 	 				</ul>
-	 				<form class="navbar-form pull-right" method="get"  action="http://www.google.com/search">
-                          <input class="search" placeholder="ingresa tu busqueda..." name="q" required />
-                          <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span>  </button>
-                          <input type="hidden" name="sitesearch" value="http://www.toychan.com/"/>
-                     
-                      </form><!-- fin del NAV bar form -->
+	 				<form class="navbar-form pull-right" method="get" base target="_blank" action="http://www.google.com/search">
+                        <input class="search" placeholder="ingresa tu busqueda..." name="q" required="required" />
+                        <button type="submit"class="btn btn-default"><span class="glyphicon glyphicon-search"></span>  </button>
+                        <input type="hidden" name="sitesearch" value="http://www.toychan.com/"/>
+                       </input>
+                    </form>><!-- fin del NAV bar form -->
 	 				
 	 			</div><!-- fin del NAV COLLAPSE -->
 	 		</div><!--FIN del  container en el NAV -->
 	 	</div><!-- fin del NAV bar superior -->
-	 	<div class="carousel slide" id="mycarousel">
-	 			 		<!-- BOLITAS INDICADORAS-->
-	 			 		<ol class="carousel-indicators">
-	 			 			<li class="active" data-slide-to="0" data-target="#mycarousel"></li>
-	 			 			<li data-slide-to="1" data-target="#mycarousel"></li>
-	 			 			<li data-slide-to="2" data-target="#mycarousel"></li>
+	 	
+	 	<div class="row" id="morecourses">
+	 		<div class="col-12">
+	 			<h3>Linea Nendoroid CU'Poche Kotobukiya</h3>
+	 			<div class="thumbnails row">
+	 				<div class="col-6">
+	 					<div class="thumbnail">
+	 						<img src="images/cupo001.png" alt="Madoka Nendoroid">
+	 							<div class="label label-sucess price"> <span class="glyphicon glyphicon-tag"></span> <sup>$</sup> 75 USD</div><!-- ETIQUETA DE PRECIO -->
+	 						<div class="caption">
+	 							<h3>Cupoche Black Magician Girl</h3>
+	 							<p>Hazte con este nendoroid de Kaname Madoka con su Hermoso Yukata</p>
+	 							
+	 						</div><!-- fin Caption -->
+	 					</div>
+	 				</div>
+	 				<div class="col-6">
+	 					<div class="thumbnail">
+	 						<img src="images/cupo002.png" alt="Madoka Nendoroid">
+	 							<div class="label label-sucess price"> <span class="glyphicon glyphicon-tag"></span> <sup>$</sup> 75 USD</div><!-- ETIQUETA DE PRECIO -->
+	 						<div class="caption">
+	 							<h3>Nendoroid - Nisekoi: Chitoge Kirisaki</h3>
+	 							<p>FDe la serie Nisekoi la protagonista viene con 3 rostros adicionales.</p>
 
-	 			 		</ol>
+	 							
+	 						</div><!-- fin Caption -->
+	 					</div>
+	 				</div>
+	 			</div><!-- fin del thumbnail ROW -->
 
-	 		<!-- WRAPPER -->
-	 		<div class="carousel-inner">
-	 			<div class="item active" id="slide1">
-	 				<div class="carousel-caption">
-	 					
-	 					<p></p>
-	 				</div><!-- fin texto sobre imagen -->
-	 			</div><!-- fin ITEM -->
-	 		
-	 		<!-- WRAPPER -->
-	 		
-	 			<div class="item" id="slide2">
-	 				<div class="carousel-caption">
-	 					
-	 					<p></p>
-	 				</div><!-- fin texto sobre imagen -->
-	 			</div><!-- fin ITEM -->
-	 		
-	 		<!-- WRAPPER -->
-	 		
-	 			<div class="item" id="slide3">
-	 				<div class="carousel-caption">
-	 					
-	 					<p></p>
-	 				</div><!-- fin texto sobre imagen -->
-	 			</div><!-- fin ITEM -->
-	 		</div><!-- fin inner -->
-				<!--Flechitas control -->
-				<a class="left carousel-control" data-slide="prev" href="#mycarousel"><span class="icon-prev"></span></a>
-				<a class="right carousel-control" data-slide="next" href="#mycarousel"><span class="icon-next"></span></a>
+	 		</div>	
 
 
-
-	 	</div><!-- fin CARROUSEL -->
-
-	 	<!-- Visible only on small devices -->
-					<div class="well well-small visible-sm">
-						<a href="tel:+593959839207" class="btn btn-large btn-block btn-default"><span class="glyphicon glyphicon-phone"></span> ¡Llamanos!</a>
-					</div><!-- end well-small -->
-<br>
-	 	<div class="row" id="bigcallout">
-
-	 		<div class="well">
-			<div class="page-header">
-				<h1>Página de Pedidos <small>Guayaquil Ecuador</small></h1>
-			</div><!-- end page-header -->
-			
-			<p class="lead">Aquí podrás revisar el estado de tus pedidos o los articulos que vienen en Stock!</p>
-			
-			<a href="pedidos.html" target="_blank" class="btn btn-large btn-primary" id="alertMe">Leer más</a>
-			
-		</div><!-- end well -->
 	 	</div><!-- fin del ROW ROW -->
-	 	
-	 	<br>
-	 	
-	 	
-       
 	 </div><!-- End Container -->
-	 <br>
-	</div><!-- Fin del wrap que es el que empuja el footer abajo -->
-
-
-
-
 <footer>
-	<div class="footer" >
-	<!--<div class="footer navbar-fixed-bottom">-->
-		<div class="container">
+	<div class="container">
+		<div class="row">
 			
 					<div class="col-sm-2">
 						<h6>Copyright &copy; 2014 Toychan</h6>
@@ -184,10 +142,10 @@
 
 					</div>
 					<div class="col-sm-2">
-						<h6>Navegación</h6>
+						<h6>Navegacion</h6>
 						<ul class="unstyled">
 							<li><a href="contactenos.html">Mapa</a></li>
-                                                 
+                            
                             <li><a href="galeria_clientes.html">Nuestros Clientes</a></li>
 						</ul>	
 					</div>
@@ -197,9 +155,6 @@
 							<li><a href="https://twitter.com/Toychan_" target="_blank">twitter</a></li>
 							<li><a href="https://www.facebook.com/pages/Toychan/374242359268033" target="_blank">facebook</a></li>
 							<li><a href="mailto:toy-chan@hotmail.com">Correo</a></li>
-                            
-                           
-						</ul>
 
 					</div>
 					
@@ -207,9 +162,7 @@
 		</div>	
 
 	</div><!-- End Container -->
-
 </footer>
-
 	
 
 	<!-- All Javascript at the bottom of the page for faster page loading -->
@@ -226,6 +179,8 @@
 	<!-- Custom JS -->
 	<script src="js/script.js"></script>
 	
-	</body>
+	
+
+</body>
 </html>
 
