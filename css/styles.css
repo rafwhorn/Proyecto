@@ -38,65 +38,6 @@ padding:0;
    Carousel
    -------------------------------------- */
 
-#mycarousel{
-   margin-top:60px;
-   
-}
-.carousel-caption{
-   font-size: 24px;
-}
-.carousel-caption h4{
-   font-size: 32px;
-}
-#mycarousel .item { height:400px;}
-
-#slide1 {
- background: url('../images/carousel_medium_01.jpg') top center no-repeat;
-
-}
-
-#slide2 {
- background: url('../images/carousel_medium_02.jpg') top center no-repeat;
-
-}
-#slide3 {
- background: url('../images/carousel_medium_03.jpg') top center no-repeat;
-
-}
-
-/*estos pertenecen a la pagina de clientes */
-#slide4 {
- background: url('../images/cliente1.jpg') top center no-repeat;
-
-}
-
-#slide5 {
- background: url('../images/cliente3.jpg') top center no-repeat;
-
-}
-#slide6 {
- background: url('../images/cliente4.jpg') top center no-repeat;
-
-}
-
-#slide7 {
- background: url('../images/cliente5.jpg') top center no-repeat;
-
-}
-
-#slide8 {
- background: url('../images/cliente6.jpg') top center no-repeat;
-
-}
-#slide9 {
- background: url('../images/cliente7.jpg') top center no-repeat;
-
-}
-
-#slide10 {
- background: url('../images/cliente8.jpg') top center no-repeat;
-
-}
 /* --------------------------------------
    Global Styles
    -------------------------------------- */
@@ -322,7 +263,7 @@ body {
 }
 
 .sp-parallax-bg {
-    background: url(../images/map.png) repeat-x scroll 0 0;
+    background:  #000  repeat-x scroll 0 0;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
