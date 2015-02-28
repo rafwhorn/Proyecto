@@ -65,6 +65,21 @@
 	background-image: url(../images/21.jpg);
 }
 
+
+/*imagenes de index */
+.ch-img-1 { 
+	background-image: url(../images/1.jpg);
+}
+
+.ch-img-2 { 
+	background-image: url(../images/2.jpg);
+}
+
+.ch-img-3 { 
+	background-image: url(../images/3.jpg);
+}
+
+
 .ch-info h3 {
 	color: #fff;
 	text-transform: uppercase;
